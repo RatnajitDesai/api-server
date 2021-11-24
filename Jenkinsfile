@@ -73,7 +73,7 @@ pipeline {
                 echo 'Get cluster credentials'
                 sh 'gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project dtc-nov21-user318'
                 echo "Update the image to use gcr.io/dtc-nov21-user318/api-server-image:v2.${env.BUILD_ID}"
-                sh "kubectl set image deployment/[DEPLOYMENT_NAME] demo-api=gcr.io/dtc-nov21-user318/api-server-image:v2.${env.BUILD_ID} --record"
+                sh "kubectl set image deployment/demo-api demo-api=gcr.io/dtc-nov21-user318/api-server-image:v2.${env.BUILD_ID} --record"
             }
         }            
     }
