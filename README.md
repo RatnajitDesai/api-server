@@ -16,3 +16,8 @@ If you don't have nvm installed I suggest that you install it because it is by f
 
 ##Starting Point  
 Simple API server using volatile storage. Data will be stored in an array on the server.
+<<<<<<< HEAD
+=======
+
+Changes made by Ratnajit
+>>>>>>> 222309f52f1a5f664c8e36309dbc794b81acf05a
