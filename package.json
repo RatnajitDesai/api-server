@@ -1,13 +1,4 @@
 {
-  "name": "cnd-sample-api-server-step-3",
-  "version": "3.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node ./src/server.js",
-    "test": "TESTING=true nyc mocha ./src/**/*.test.js --exit "
-  },
-  "dependencies": {
-    "@google-cloud/firestore": "^4.9.7",
   "name": "cnd-sample-api-server-step-1",
   "version": "1.0.0",
   "private": true,
